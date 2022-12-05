@@ -1,7 +1,7 @@
 #title{
     background-color:#D2DAFF;
-   
-} 
+
+}
 
 #m2{
 
@@ -31,8 +31,8 @@ a.nav-link{
     size: 1.8;
     font-family: 'Montserrat',black;
     color:white;
-    
- 
+
+
 
 
 }
@@ -46,7 +46,7 @@ a.nav-link{
 
  .container-fluid{
     min-height: 10%;
-    
+
 }
 
 .download-button{
@@ -66,8 +66,8 @@ a.nav-link{
         left: 100px;
         transform: rotate(25deg);
     }
-  
-    
+
+
     h1{
 
       font-family: 'Montserrat',black;
@@ -82,14 +82,14 @@ a.nav-link{
         margin-top: 10%;
     }
 
-    h1.num2{ 
+    h1.num2{
             padding-top:0.5%;
             color:#7F669D;
             font-family: 'Montserrat',black;
-            
-           
+
+
         }
-        
+
 
         h2{
 
@@ -100,7 +100,7 @@ a.nav-link{
         }
 
 
-      
+
         img.card-img-top{
             width: 250px;
             height: 250px;
@@ -109,8 +109,8 @@ a.nav-link{
             border-width: 150%;
             border-image-width:10px;
         }
-     
-       
+
+
 
 h1.titulo{
     top:20px;
@@ -265,7 +265,7 @@ h6{
 /* <--------aqui empieza los tarjetas d elos planes ------ */
 
 .card12 h6 {
-	opacity: 0.6;	
+	opacity: 0.6;
 	letter-spacing: .1rem;
 	text-transform: uppercase;
 }
@@ -276,7 +276,7 @@ h6{
 	color: var(black-text);
 }
 
-.left-column {	
+.left-column {
 	color: var(--white-text);
 	padding: 2rem;
 	max-width: 10rem;
@@ -301,10 +301,10 @@ h6{
     flex-direction: column;
     align-items: start;
     justify-content: space-between;
-	
+
 }
 
-.right-column p{	
+.right-column p{
 	font-size: .9rem;
 	color: var(--black-text)
 }
@@ -407,141 +407,46 @@ div#card3.card{
 /* //curso de boostrap */
 
 
- 
-  .sobre-mi .contenedor {
-    max-width: 600px;
-    text-align: center;
-  }
-  
-  /* Experiencia */
-  
-  .experiencia {
-    padding: 40px 40px 60px 40px;
-  }
-  
-  .experiencia .columna {
-    padding: 20px;
-    border: 2px solid #8080804d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: all 0.2s ease-in;
-  }
-  
-  .experiencia .columna:hover {
-    color: white;
-    background-color:#EEF1FF;
-  }
-  
-  .experiencia i {
-    font-size: 2.5rem;
-    color: #7ade30;
-    background-color: #0a0a23;
-    padding: 8px 19px;
-    border-radius: 50%;
-  }
-  
-  .experiencia-titulo {
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0;
-    color:#FFB63F;
-  }
-  
-  .badges-contenedor {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .badge {
-    margin: 5px;
+
+
+
+  /* pricing*/
+  #pricing{
+  padding: 100px;
+  background-color:#F9F9F9;
   }
 
-  span.badge.text-bg-primary{
-    background-color:red;
-  }
-  
-  /* Proyectos */
-  
-  .proyectos-recientes {
-    padding: 40px;
-  }
-  
-  .proyectos-recientes img {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    display: block;
-    transition: all 0.2s ease;
-  }
-  
-  .proyectos-contenedor {
-    padding-top: 60px;
-    margin-bottom: 40px;
-  }
-  
-  .overlay {
-    transition: all 0.2s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .pricing-column{
+    padding: 3% 2%;
     text-align: center;
   }
-  
-  .overlay p {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 0;
-  }
-  
-  .proyecto {
-    position: relative;
-  }
-  
-  .proyecto:hover img {
-    opacity: 0.2;
-  }
-  
-  .proyecto:hover .overlay {
-    opacity: 1;
-  }
-  
-  .overlay .iconos-contenedor {
-    display: flex;
-  }
-  
-  .overlay i {
-    color: black;
-    font-size: 60px;
-    margin: 10px;
-  }
-  
-  /* Articulos */
-  
-  .articulos {
-    min-height: 500px;
-    padding: 30px;
-  }
-  
-  .articulos .card {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px;
-  }
-  
-  .articulos .card-header {
-    font-weight: bold;
-  }
-  
+
+.my-0 {
+  color:  #FFB63F;
+  font-family: 'Montserrat';
+}
+
+h1.titulo3{
+  color:#603E85;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+
+h6 {
+  color:#603E85;
+  font-family: 'Montserrat';
+}
+
+#div.card-header{
+  background-color: black;
+}
+
+
   /* Testimonios */
-  
+
   .testimonios {
-   padding-top: 400px;
+   padding-top: 50px;
   }
 
   h2.seccion-titulo{
@@ -557,12 +462,12 @@ h3.seccion-descripcion{
 
   font-family: 'Montserrat',black;
   color:#B1AFFF;
-  
+
 
 
 }
 
-  
+
 .carousel-item .container {
   width: 100%;
   height: 100%;
@@ -622,7 +527,7 @@ ul{
 }
 .footer{
 	background-color:#B1AFFF;
-  margin-top: 15%;
+  margin-top: 19%;
     height: 20%;
 }
 .footer-col{
@@ -693,7 +598,3 @@ ul{
     width: 100%;
 }
 }
-
-
-
-
