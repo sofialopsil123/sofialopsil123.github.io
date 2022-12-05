@@ -1,3 +1,8 @@
+body{
+  background: #F1FAFF;
+}
+
+
 #title{
     background-color:#D2DAFF;
 
@@ -82,49 +87,52 @@ a.nav-link{
         margin-top: 10%;
     }
 
+    h2{
+
+      font-family: 'Montserrat',black;
+      color:#B1AFFF;       
+    
+    
+     }
+
     h1.num2{
             padding-top:0.5%;
             color:#7F669D;
             font-family: 'Montserrat',black;
 
-
-        }
-
-
-        h2{
-
-            font-family: 'Montserrat',black;
-            color:#B1AFFF;
+  }
 
 
-        }
+ #heading{
+  padding:50%,30%,20%;
+ 
+  text-align: center;
 
-
-
-        img.card-img-top{
-            width: 250px;
-            height: 250px;
-            border-radius: 150%;
-            border-left: 150%;
-            border-width: 150%;
-            border-image-width:10px;
-        }
-
-
-
-h1.titulo{
-    top:20px;
-}
-
-h1.titulo1{
-    text-align: center;
-    margin-top: 10%;
-}
-
+ }
+      
+ h1.titulo1{
+      text-align: center;
+      margin-top: 10%;
+      }
+      
 h5{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-}
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  }
+
+  h6{
+    color:#0014FF;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+      
+  img.card-img-top{
+    width: 250px;
+    height: 250px;
+    border-radius: 150%;
+    border-left: 150%;
+    border-width: 150%;
+    border-image-width:10px;       
+     }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -136,9 +144,6 @@ h5{
     font-family: 'Lato', sans-serif;
 }
 
-body{
-    background: #F1FAFF;
-}
 
 
 img{
@@ -257,10 +262,7 @@ p{
 
 }
 
-h6{
-  color:#0014FF;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
+
 
 /* <--------aqui empieza los tarjetas d elos planes ------ */
 
@@ -319,7 +321,7 @@ h6{
 	align-self: flex-end;
 }
 
-/*media queries*/
+/*section de las cards d servicios*/
 
 @media (max-width: 1030px) {
 	.container{
@@ -404,7 +406,7 @@ div#card3.card{
     background-color:#C8FFD4;
 }
 
-/* //curso de boostrap */
+
 
 
 
@@ -430,7 +432,7 @@ h1.titulo3{
   color:#603E85;
   font-family: 'Montserrat';
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 
@@ -506,7 +508,7 @@ h3.seccion-descripcion{
 
   /* contacto */
 
-  /* Contacto */
+
 
 
 
